@@ -22,8 +22,9 @@ class Employee extends Person{
     id = 0011;
   }
   public Employee(String theName, int theAge, String department){
-    super(theName,theAge);
-    this.department = department;
+    super(theName);
+    super(theAge);
+    department = this.department;
     id = 0011;
   }
 }
